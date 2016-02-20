@@ -1,0 +1,38 @@
+{
+  "name": "web-vmstats",
+  "version": "1.0.0",
+  "description": "Display live Linux system stats.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattbudish/web-vmstats.git"
+  },
+  "keywords": [
+    "linux",
+    "web",
+    "vmstat",
+    "websocket",
+    "dashboard"
+  ],
+  "author": "Joe Walnes",
+  "contributors": [
+    {
+      "name": "Matt Budish",
+      "email": "mtbudish@gmail.com"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mattbudish/web-vmstats/issues"
+  },
+  "homepage": "https://github.com/mattbudish/web-vmstats#readme",
+  "dependencies": {
+    "ReconnectingWebSocket": "git+https://github.com/joewalnes/reconnecting-websocket.git",
+    "chroma-js": "^1.1.1",
+    "jquery": "^2.2.0",
+    "smoothie": "^1.27.0",
+    "sugar": "^1.4.1"
+  }
+}
